@@ -1,0 +1,14 @@
+.todoContainer{
+    display: flex;
+    /* flex-direction: column; */
+}
+@media (max-width: 786px){
+    .todoContainer{
+        flex-direction: column; /*When viewed in tablet applies these flexbox condition*/
+    }
+}
+@media (max-width: 425px){
+    .todoContainer{
+        font-size: small;
+    }
+}
